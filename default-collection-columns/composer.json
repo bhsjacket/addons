@@ -1,0 +1,19 @@
+{
+    "name": "bhsjacket/default-collection-columns",
+    "autoload": {
+        "psr-4": {
+            "BhsJacket\\DefaultCollectionColumns\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Default Collection Columns",
+            "description": "Enforce default collection columns"
+        },
+        "laravel": {
+            "providers": [
+                "BhsJacket\\DefaultCollectionColumns\\ServiceProvider"
+            ]
+        }
+    }
+}

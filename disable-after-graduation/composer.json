@@ -1,0 +1,19 @@
+{
+    "name": "bhsjacket/disable-after-graduation",
+    "autoload": {
+        "psr-4": {
+            "BhsJacket\\DisableAfterGraduation\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Disable After Graduation",
+            "description": "Disable user accounts after graduation"
+        },
+        "laravel": {
+            "providers": [
+                "BhsJacket\\DisableAfterGraduation\\ServiceProvider"
+            ]
+        }
+    }
+}
